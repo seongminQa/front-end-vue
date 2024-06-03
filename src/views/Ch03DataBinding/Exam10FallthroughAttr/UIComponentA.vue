@@ -12,13 +12,13 @@
 
 <script setup>
 const prop = defineProps(["class", "style"]);
-const emit = defineEmits(["Click"]);
+const emit = defineEmits(["click"]);
 
 function handleClick() {
     // 컴포넌트의 속성값 읽기
     console.log(prop.class);
     console.log(prop.style);
-    // 컴포넌의 click 이벤트 발생
+    // 컴포넌트의 click 이벤트 발생
     emit('click');
 }
 

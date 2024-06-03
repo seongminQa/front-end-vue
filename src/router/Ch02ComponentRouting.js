@@ -19,7 +19,7 @@ const routes = [
     },
     {
         path: '/Ch02ComponentRouting/Exam05View',
-        component: () => import(/* webpackChunkName: "Ch02ComponentRouting" */ '@/views/Ch02ComponentRouting/Exam04View'),
+        component: () => import(/* webpackChunkName: "Ch02ComponentRouting" */ '@/views/Ch02ComponentRouting/Exam05View'),
         redirect: '/Ch02ComponentRouting/Exam05View/UIComponentA',
         children: [
             {
