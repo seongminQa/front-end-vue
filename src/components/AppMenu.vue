@@ -239,6 +239,22 @@
                             <RouterLink to="/Ch08RestAPI/Exam01Promise" class="nav-link">
                                 Exam01Promise : Promise 비동기 작업 처리 </RouterLink>
                         </li>
+                        <li class="nav-item">
+                            <RouterLink to="/Ch08RestAPI/Exam02Join" class="nav-link">
+                                Exam02Join : 회원 가입 폼 </RouterLink>
+                        </li>
+                        <li class="nav-item">
+                            <RouterLink to="/Ch08RestAPI/Exam03Login" class="nav-link">
+                                Exam03Login : 로그인 폼 </RouterLink>
+                        </li>
+                        <li class="nav-item">
+                            <RouterLink to="/Ch08RestAPI/Exam04Board/BoardList" class="nav-link">
+                                Exam04BoardList/BoardList : 게시판 조회</RouterLink>
+                        </li>
+                        <li class="nav-item">
+                            <RouterLink to="/Ch08RestAPI/Exam04Board/BoardWrite" class="nav-link">
+                                Exam04Board/BoardWrite : 게시판 글쓰기</RouterLink>
+                        </li>
                     </ul>
                 </div>
             </div>
